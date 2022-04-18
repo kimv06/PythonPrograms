@@ -1,0 +1,20 @@
+L1=[10,20,30]
+b=(40,50)
+print("BEFORE APPEND:")
+print(L1)
+print("AFTER APPEND:")
+L1.append(b)
+print(L1)
+L2=[10,20,30]
+b=(40,50)
+print("BEFORE EXTEND:")
+print(L2)
+print("AFTER EXTEND:")
+L2.extend(b)
+print(L2)
+L3=[10,20,30]
+print("BEFORE INSERT:")
+print(L3)
+print("AFTER INSERT:")
+L3.insert(2,50)
+print(L3)

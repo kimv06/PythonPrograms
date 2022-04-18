@@ -1,0 +1,5 @@
+r=float(input("Enter the radius of circle : "))
+ar=r*r*(22/7)
+peri=2*r*(22/7)
+print("The area of circle = ",ar)
+print("The perimeter of circle =",peri)
